@@ -3,6 +3,18 @@
 #include <cstdlib>
 #include <time.h>
 
+Apple::Apple()
+{
+	circleX = 0;
+	circleY = 0;
+	circleR = 0;
+	color = {};
+}
+
+Apple::~Apple()
+{
+
+}
 
 void Apple::setUp(Screen& p_screen)// sets the value to the apples propeties
 {

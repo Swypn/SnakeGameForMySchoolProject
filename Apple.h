@@ -6,6 +6,8 @@ class Apple
 	int circleX, circleY, circleR;
 	Color color;
 public:
+	Apple();
+	~Apple();
 	void setUp(Screen& p_screen);
 	void Update(Screen& p_screen);
 	void Draw(Screen& p_screen);

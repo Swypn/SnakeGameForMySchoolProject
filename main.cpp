@@ -5,7 +5,7 @@ int screenWidth = 1000;
 int screenHeight = 1000;
 
 /* 
-Willy Pettersson
+Willy Pettersson, 14/1 2022 
 
 Galba v1.6
 Vector2				-> Turned into a class, added baseline Vector2 functionality (arithmetic, magnitude, dot, normalize, distance)
